@@ -1,0 +1,1 @@
+Worker: node --max-old-space-size=4098 .
