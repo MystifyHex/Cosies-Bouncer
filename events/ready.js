@@ -5,11 +5,10 @@ module.exports = async (client) => {
   const { MessageEmbed } = require("discord.js");
   const axios = require("axios");
   const cron = require("node-cron");
-  console.log("Cosies Chairman is online!");
+  console.log("Inferno Utilities is online!");
   console.log(`Running in ${client.guilds.cache.size} servers!`);
-  client.user.setActivity("Cosies Videos", {
-    type: "STREAMING",
-    url: "https://www.twitch.tv/cosiesmc"
+  client.user.setActivity("Inferno Client", {
+    type: "WATCHING",
   });
 
   const redditData = await reddit.find();
